@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+body{
+    background-color: #0D1A2D;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 355px;
+    background-color: #15273F;
+    border-radius: 5%;
+    padding: 20px;  
+}
+
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fluid:hover{
+    cursor: pointer;
+    
+}
+ 
+
+
+
+h1{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+h1:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+    transition: 0.7s;
+}
+
+main p{
+    font-size: 18px;
+    color: #87A2CD;
+    padding: 10px 0;
+}
+
+main div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #2F4159;
+    padding-bottom: 10px;
+}
+
+main div p:first-child{
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+footer img{
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+footer p{
+    color: #87A2CD;
+    padding-left: 4%;
+}
+
+footer span{
+    color: white;
+}
+
+footer span:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+    transition: 0.7s;
+}
+
+
+@media screen and (max-width: 320px){
+    .card {
+        width: 280px;
+    }
+}
